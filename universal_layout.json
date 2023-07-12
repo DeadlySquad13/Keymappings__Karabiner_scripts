@@ -1,0 +1,734 @@
+{
+  "title": "Universal layout keymappings",
+  "maintainers": [
+    "DeadlySquad13"
+  ],
+  "rules": [
+    {
+      "description": "Keymappings for universal across layouts layer",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "1",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "p"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f4",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "h",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f6",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "u",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "y",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f8",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "close_bracket"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f13",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "n"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f14",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f14",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "n",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f15",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f15",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "close_bracket",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f16",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "p",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f16",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f17",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f17",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f18",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f19",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f19",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f20",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "y"
+            }
+          ],
+          "conditions": [
+            {
+                "input_sources": [{
+                    "input_source_id": "keyman.inputmethod.Keyman"
+                }],
+                "type": "input_source_if"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
