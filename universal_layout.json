@@ -306,7 +306,7 @@
           },
           "to": [
             {
-              "key_code": "y",
+              "key_code": "8",
               "modifiers": [
                 "left_shift"
               ]
