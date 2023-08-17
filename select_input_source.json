@@ -1,0 +1,63 @@
+{
+  "title": "Select input source",
+  "maintainers": [
+    "DeadlySquad13"
+  ],
+  "rules": [
+    {
+      "description": "Change to Russian",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+                "select_input_source": {
+                    "language": "^ru$"
+                }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "description": "Change to Hands Down Neu Layout",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "7",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+                "select_input_source": {
+                    "input_source_id": "^org\\.sil\\.ukelele\\.keyboardlayout\\.\\.keylayout\\.HDNModified$"
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
