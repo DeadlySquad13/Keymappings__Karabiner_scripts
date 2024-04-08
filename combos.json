@@ -1,0 +1,110 @@
+{
+  "title": "Home row combos",
+  "maintainers": [
+    "DeadlySquad13"
+  ],
+  "rules": [
+    {
+      "description": "Esc on home row",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+                {
+                    "key_code": "d"
+                },
+                {
+                    "key_code": "f"
+                }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "escape"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+                {
+                    "key_code": "j"
+                },
+                {
+                    "key_code": "k"
+                }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Return on home row",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+                {
+                    "key_code": "a"
+                },
+                {
+                    "key_code": "s"
+                }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "return_or_enter"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+                {
+                    "key_code": "l"
+                },
+                {
+                    "key_code": "semicolon"
+                }
+            ],
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "return_or_enter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
