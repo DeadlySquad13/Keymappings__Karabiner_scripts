@@ -52,7 +52,7 @@
           "to": [
             {
                 "select_input_source": {
-                    "input_source_id": "^org\\.sil\\.ukelele\\.keyboardlayout\\.\\.keylayout\\.HDNModified$"
+                    "input_source_id": "^org\\.sil\\.ukelele\\.keyboardlayout\\.handsdownneu\\.handsdownneu$"
                 }
             }
           ]
